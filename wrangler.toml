@@ -8,14 +8,14 @@ workers_dev = true
 routes = [
 
   { pattern = "bytecore.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "graph.instagram.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "help.viu.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "support.zoom.us.stbwrt.web.id", custom_domain = true },
-  { pattern = "cache.netflix.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "graph.facebook.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "dogseechew.com.stbwrt.web.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.bytecore.biz.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.bytecore.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.bytecore.biz.id", custom_domain = true },
+  { pattern = "help.viu.com.bytecore.biz.id", custom_domain = true },
+  { pattern = "support.zoom.us.bytecore.biz.id", custom_domain = true },
+  { pattern = "cache.netflix.com.bytecore.biz.id", custom_domain = true },
+  { pattern = "graph.facebook.com.bytecore.biz.id", custom_domain = true },
+  { pattern = "dogseechew.com.bytecore.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
