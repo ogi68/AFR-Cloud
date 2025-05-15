@@ -19,7 +19,7 @@ routes = [
 ]
 
 [[kv_namespaces]]
-binding = "OGIKU"
+binding = "ogiku"
 id = "3a085e55296f4d63a9abfadcdac5786d"
 
 [build]
