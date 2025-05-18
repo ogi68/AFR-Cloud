@@ -1,4 +1,4 @@
-name = "bugis"
+name = "bone"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -19,8 +19,8 @@ routes = [
 ]
 
 [[kv_namespaces]]
-binding = "bugis"
-id = "09d0b62e07af4671ae73bc21e44aff54"
+binding = "bone"
+id = "f7e097a14c464b01b155acc164c203f4"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
