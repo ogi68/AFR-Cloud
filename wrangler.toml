@@ -7,7 +7,7 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "terahost.biz.id", custom_domain = true },
+  { pattern = "bytecore.biz.id", custom_domain = true },
   { pattern = "ava.game.naver.com.bytecore.biz.id", custom_domain = true },
   { pattern = "quiz.int.vidio.com.bytecore.biz.id", custom_domain = true },
   { pattern = "graph.instagram.com.bytecore.biz.id", custom_domain = true },
