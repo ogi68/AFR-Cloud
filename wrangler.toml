@@ -19,7 +19,7 @@ routes = [
 ]
 
 [[kv_namespaces]]
-binding = "bone"
+binding = "bone2"
 id = "f7e097a14c464b01b155acc164c203f4"
 
 [build]
