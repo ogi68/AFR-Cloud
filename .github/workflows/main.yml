@@ -46,21 +46,21 @@ jobs:
           curl -X PUT "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/storage/kv/namespaces/$HTML_NAMESPACE_ID/values/sub.html" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: text/plain" \
-            --data "$SUB_HTML"
+            --data "$SUB"
           
           # Upload converter.html
           CONVERTER_HTML=$(cat converter.html | base64 -w 0)
           curl -X PUT "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/storage/kv/namespaces/$HTML_NAMESPACE_ID/values/converter.html" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: text/plain" \
-            --data "$CONVERTER_HTML"
+            --data "$CONVERTER"
           
           # Upload link.html
           LINK_HTML=$(cat link.html | base64 -w 0)
           curl -X PUT "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/storage/kv/namespaces/$HTML_NAMESPACE_ID/values/link.html" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: text/plain" \
-            --data "$LINK_HTML"
+            --data "$LINK"
       
       - name: Upload CSS files
         env:
