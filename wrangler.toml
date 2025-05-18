@@ -20,7 +20,7 @@ routes = [
 
 [[kv_namespaces]]
 binding = "bone"
-id = "63b4215ad5744cfd90dfa5c0580ff9f1"
+id = "f7e097a14c464b01b155acc164c203f4"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
