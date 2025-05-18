@@ -1,4 +1,4 @@
-name = "bone2"
+name = "bone"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -7,7 +7,7 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "bytecore.biz.id", custom_domain = true },
+  { pattern = "terahost.biz.id", custom_domain = true },
   { pattern = "ava.game.naver.com.bytecore.biz.id", custom_domain = true },
   { pattern = "quiz.int.vidio.com.bytecore.biz.id", custom_domain = true },
   { pattern = "graph.instagram.com.bytecore.biz.id", custom_domain = true },
