@@ -1,4 +1,4 @@
-name = "OGIKU"
+name = "bugis"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -15,7 +15,7 @@ routes = [
   { pattern = "support.zoom.us.bytecore.biz.id", custom_domain = true },
   { pattern = "cache.netflix.com.bytecore.biz.id", custom_domain = true },
   { pattern = "graph.facebook.com.bytecore.biz.id", custom_domain = true },
-  { pattern = "dogseechew.com.bytecore.biz.id", custom_domain = true },
+  { pattern = "dev.speedtest.net.bytecore.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
