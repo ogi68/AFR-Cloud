@@ -19,8 +19,8 @@ routes = [
 ]
 
 [[kv_namespaces]]
-binding = "ogiku"
-id = "3a085e55296f4d63a9abfadcdac5786d"
+binding = "bugis"
+id = "09d0b62e07af4671ae73bc21e44aff54"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
