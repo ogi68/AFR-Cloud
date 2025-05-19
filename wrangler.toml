@@ -5,7 +5,7 @@ minify = true
 workers_dev = true
 
 
-routes = 
+routes = [
 
   { pattern = "bytecore.biz.id", custom_domain = true },
   { pattern = "ava.game.naver.com.bytecore.biz.id", custom_domain = true },
